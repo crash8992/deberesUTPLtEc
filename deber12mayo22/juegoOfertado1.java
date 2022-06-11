@@ -1,3 +1,5 @@
+package deber12mayo22;
+
 public class juegoOfertado1 {
     //atributos de la clase
 
@@ -29,9 +31,8 @@ public class juegoOfertado1 {
         else {
             System.out.println("apto para el juego");
         }
-}
-public static void main(String[] args) {
-    System.out.println("confirmación código OK");
+
+
 
 }
 }
