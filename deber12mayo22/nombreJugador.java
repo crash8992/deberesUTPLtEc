@@ -41,7 +41,7 @@ public class nombreJugador{
         System.out.println("nombre..." + juegoPreferido);
 }
 
-    public void mostrarhorasDejuego (Float horasDejuego){
+    public void mostrarhorasDejuego (int horasDejuego){
         if (horasDejuego >= 3){
             System.out.println("regalar 30 min");
         }
