@@ -4,21 +4,33 @@ public class juegoOfertado1 {
     //atributos de la clase
 
     public String nombreJuego;
+    
+    public String getNombreJuego() {
+        return nombreJuego;
+    }
+
+    public void setNombreJuego(String nombreJuego) {
+        this.nombreJuego = nombreJuego;
+    }
+
     public String generoJuego;
     public int añoPublicacion;
+    public String clasificación;
 
     //constructores
     
     public juegoOfertado1(){
     }
 
-    public juegoOfertado1(String nombreJuego, String generoJuego, int añoPublicacion) {
+    public juegoOfertado1(String nombreJuego, String generoJuego, int añoPublicacion, String clasificación) {
         this.nombreJuego = nombreJuego;
         this.generoJuego = generoJuego;
         this.añoPublicacion = añoPublicacion;
+        this.clasificación = clasificación;
     }
 
     //metodos
+    
 
     public static void mostrarNombrejuego (){
         System.out.println("nombreJuego...." );
@@ -33,6 +45,8 @@ public class juegoOfertado1 {
         }
 
 
+
+        
 
 }
 }
